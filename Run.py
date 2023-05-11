@@ -13,15 +13,15 @@ def GetFloat(string):
 def GetInt(string):
     while True:
         try:
-            quantity = int(input(string))
+            typeOrder = int(input(string))
             if typeOrder == 1 or typeOrder == 2:
-                return quantity
+                return typeOrder
         except:
             pass
     
 apiKey = input("Enter API Key: ")
 privateKey = input("Enter Private Key: ")
-symbol = input("Enter Symbol (EX: BTCUSDT): ")
+symbol = input("Enter Symbol (EX: BTCUSDT): ").upper()
 quantity = GetFloat("Enter quantity: ")
 typeOrder = GetInt("Enter Type Order (1 for MARKER, 2 for LIMIT): ")
 if typeOrder == 2:

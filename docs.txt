@@ -1,0 +1,29 @@
+1. ssh root@IPaddress
+
+2. Enter password and change it to new password
+
+3. sudo apt update
+
+4. sudo apt install software-properties-common
+
+5. sudo add-apt-repository ppa:deadsnakes/ppa
+
+6. sudo apt update
+
+7. sudo apt install python3.9
+
+8. sudo apt install git
+
+9. git clone https://github.com/haluu0902/BuyFastBinance.git
+
+10. sudo apt install screen
+
+11. screen -S screen
+
+12. cd /root/BuyFastBinance
+
+13. python3 Run.py
+
+14. screen -R screen
+
+(Quit: screen -XS screen quit)
