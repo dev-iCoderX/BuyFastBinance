@@ -18,12 +18,25 @@
 
 10. sudo apt install screen
 
-11. screen -S screen
+11. screen -S binance
 
 12. cd /root/BuyFastBinance
 
-13. python3 Run.py
+13. apt install python3-pip
 
-14. screen -R screen
+14. pip3 install python-binance
 
-(Quit: screen -XS screen quit)
+15. GET API Binance and add IP of VPS to whitelist
+
+16. python3 Run.py
+
+17. input your information
+- API Key
+- API Secret
+- Symbol
+- Quantity: for example: You choose BTCUSDT your quantity must be BTC. You choose BNBUSDT your quantity must be BNB.
+- Type Order
+- If you choose LIMIT you need to enter Limit Price
+
+
+(Quit: Control+C to exit)

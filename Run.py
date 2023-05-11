@@ -7,8 +7,8 @@ def GetFloat(string):
         try:
             quantity = float(input(string))
             return quantity
-        except:
-            pass
+        except Exception as e:
+            print(e)
         
 def GetInt(string):
     while True:
@@ -16,8 +16,8 @@ def GetInt(string):
             typeOrder = int(input(string))
             if typeOrder == 1 or typeOrder == 2:
                 return typeOrder
-        except:
-            pass
+        except Exception as e:
+            print(e)
     
 apiKey = input("Enter API Key: ")
 privateKey = input("Enter Private Key: ")
